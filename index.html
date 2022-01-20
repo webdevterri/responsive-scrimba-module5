@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="webdevterri">
     <link
       href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap"
       rel="stylesheet"
@@ -15,9 +18,9 @@
         </div>
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Recent posts</a></li>
+            <li><a class="current-page" href="index.html">Home</a></li>
+            <li><a href="about-me.html">About me</a></li>
+            <li><a href="recent-posts.html">Recent posts</a></li>
           </ul>
         </nav>
       </div>
@@ -106,52 +109,52 @@
           </div>
         </article>
       </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-widget">
+          <h2 class="widget-title">About me</h2>
+          <img
+            src="img/about-me.jpg"
+            alt="man with long hair grinning."
+            class="widget-image"
+          />
+          <p class="widget-body">
+            I find life better, and I'm happier, when things are nice and
+            simple.
+          </p>
+        </div>
+
+        <div class="sidebar-widget">
+          <h2 class="widget-title">Recent posts</h2>
+          <div class="widget-recent-post">
+            <h3 class="widget-recent-post-title">Keeping cooking simple</h3>
+            <img
+              src="img/food.jpg"
+              alt="three Asian dumplings."
+              class="widget-image"
+            />
+          </div>
+          <div class="widget-recent-post">
+            <h3 class="widget-recent-post-title">Simplicity and work</h3>
+            <img
+              src="img/work.jpg"
+              alt="minimalist home workspace."
+              class="widget-image"
+            />
+          </div>
+          <div class="widget-recent-post">
+            <h3 class="widget-recent-post-title">Simple decorations</h3>
+            <img
+              src="img/deco.jpg"
+              alt="green plant in vase."
+              class="widget-image"
+            />
+          </div>
+        </div>
+      </aside>
     </div>
-
-    <aside class="sidebar">
-      <div class="sidebar-widget">
-        <h2 class="widget-title">About me</h2>
-        <img
-          src="img/about-me.jpg"
-          alt="man with long hair grinning."
-          class="widget-image"
-        />
-        <p class="widget-body">
-          I find life better, and I'm happier, when things are nice and simple.
-        </p>
-      </div>
-
-      <div class="sidebar-widget">
-        <h2 class="widget-title">Recent posts</h2>
-        <div class="widget-recent-post">
-          <img
-            src="img/food.jpg"
-            alt="three Asian dumplings."
-            class="widget-image"
-          />
-          <h3 class="widget-recent-post-title">Keeping cooking simple</h3>
-        </div>
-        <div class="widget-recent-post">
-          <img
-            src="img/work.jpg"
-            alt="minimalist home workspace."
-            class="widget-image"
-          />
-          <h3 class="widget-recent-post-title">Simplicity and work</h3>
-        </div>
-        <div class="widget-recent-post">
-          <img
-            src="img/deco.jpg"
-            alt="green plant in vase."
-            class="widget-image"
-          />
-          <h3 class="widget-recent-post-title">Simple decorations</h3>
-        </div>
-      </div>
-    </aside>
-
     <footer>
-      <p>Living the Simple Life</p>
+      <p><strong>the Simple Life</strong></p>
       <p>Copyright 2019</p>
     </footer>
   </body>
